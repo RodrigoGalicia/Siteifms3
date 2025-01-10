@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    width: 400px;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.access-box {
+    margin-bottom: 20px;
+}
+
+.access-box h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.access-box form input[type="text"],
+.access-box form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.access-box form a {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.access-box form a:hover {
+    text-decoration: underline;
+}
+
+.access-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.access-box button:hover {
+    background-color: #00408d;
+}
+
+.student-area {
+    text-align: center;
+}
+
+.student-area .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.student-area .button:hover {
+    background-color: #218838;
+}
+
+.student-area a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.student-area a:hover {
+    background-color: #117a8b;
+}
+
+.govbr {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.govbr img {
+    width: 150px;
+    cursor: pointer;
+}
